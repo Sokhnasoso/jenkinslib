@@ -8,7 +8,7 @@ def call(body) {
 	body()
 
 	def name = maVars.name
-	def action = maVars.action
+	def action = mapVars.action
 	
 	println( action + " " + name + "!!")
 }
